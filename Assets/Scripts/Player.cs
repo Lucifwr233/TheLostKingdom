@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     Vector2 dir;
 
     [SerializeField] float speed = 10;
-    [SerializeField] float jump = 7.5f;
+    [SerializeField] float jump = 9f;
 
     Rigidbody2D rb;
     bool isGrounded = false;
