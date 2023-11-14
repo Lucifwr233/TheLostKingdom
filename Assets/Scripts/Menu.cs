@@ -6,7 +6,7 @@ public class Menu : MonoBehaviour
 {
     public void OnPlayButton()
     {
-        SceneManager.LoadScene("Gameplay");
+        SceneManager.LoadScene("Prologue");
     }
 
     public void OnQuitButton()
